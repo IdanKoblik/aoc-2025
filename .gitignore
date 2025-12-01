@@ -1,0 +1,22 @@
+# CMake build directories
+cmake-build-*/
+
+# CLion/JetBrains project files
+.idea/
+!.idea/.gitignore # JetBrains keeps this specific gitignore file for the .idea folder
+!.idea/runConfigurations # Optionally share run configurations
+
+# Compilation artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.gch
+*.pcm
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies (example for vcpkg)
+vcpkg/
