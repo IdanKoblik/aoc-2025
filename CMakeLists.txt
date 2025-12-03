@@ -9,3 +9,4 @@ add_library(common STATIC file.cpp file.h
 
 add_subdirectory(day1)
 add_subdirectory(day2)
+add_subdirectory(day3)
