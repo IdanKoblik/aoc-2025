@@ -47,9 +47,7 @@ int main(int argc, char* argv[]) {
 
                 if (left == right)
                     sum1 += i;
-            } else {
-
-            }
+            } 
         }
     }
 
